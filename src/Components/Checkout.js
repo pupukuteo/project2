@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Billing from './Components/Billing';
-import Order from './Components/Order';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+import Billing from '../Components/CheckoutPage/Billing';
+import Order from '../Components/CheckoutPage/Order';
 
-class App extends Component {
+class Checkout extends Component {
   render() {
     return (
        
@@ -29,4 +29,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Checkout;
