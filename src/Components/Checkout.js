@@ -8,13 +8,13 @@ class Checkout extends Component {
   render() {
     return (
        
-            <div class="super_container">
+            <div className="super_container">
                 <Header />
-                <div class="super_container_inner">
-                    <div class="super_overlay"></div>
-                    <div class="checkout">
-                        <div class="container">
-                            <div class="row">
+                <div className="super_container_inner">
+                    <div className="super_overlay"></div>
+                    <div className="checkout">
+                        <div className="container">
+                            <div className="row">
                                 <Billing />
                                 <Order />
                             </div>

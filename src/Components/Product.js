@@ -9,12 +9,12 @@ class Product extends Component {
   render() {
     return (
        
-            <div class="super_container">
+            <div className="super_container">
                 <Header />
-                <div class="super_container_inner">
-                    <div class="product">
-                        <div class="container">
-                            <div class="row">
+                <div className="super_container_inner">
+                    <div className="product">
+                        <div className="container">
+                            <div className="row">
                                 <ProductImage />
                                 <ProductInfo />
                             </div>
