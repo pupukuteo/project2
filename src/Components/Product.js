@@ -8,7 +8,7 @@ import Footer from '../Components/Footer';
 class Product extends Component {
   render() {
     return (
-       
+        
             <div className="super_container">
                 <Header />
                 <div className="super_container_inner">
